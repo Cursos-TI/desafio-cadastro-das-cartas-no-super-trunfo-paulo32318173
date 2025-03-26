@@ -9,6 +9,33 @@
 int main() {
     printf("Cartas super trunfo! \n");
     printf("Novo Commit \n");
+    
+    int População;
+    float Área;
+    float Pib;
+    int Numerodepontosturísticos;
+    char cidade[50];
+
+    printf("Digite sua população: \n");
+    scanf("%d", &População);
+
+    printf("Digite sua área: \n");
+    scanf("%f", &Área);
+
+    printf("Digite seu pib: \n");
+    scanf("%f", Pib);
+
+    printf("Digite numeros de pontos turísticos: \n");
+    scanf("%d", &Numerodepontosturísticos);
+
+    printf("Digite sua cidade: \n");
+    printf("Nome da cidade: %s- Numerodepontosturísticos %d",cidade, Numerodepontosturísticos);  
+    return 0;
+   
+
+
+    
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
